@@ -1,7 +1,7 @@
 <?php
 ob_start(); //Turns on output buffering 
 
-$con = mysqli_connect("localhost", "root", "eorcon"); //Connection variable
+$con = mysqli_connect("localhost", "root","AJBakery",eorcon"); //Connection variable
 
 if(mysqli_connect_errno()) 
 {
